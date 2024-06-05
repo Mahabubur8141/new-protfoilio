@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins';
+
+}
+
+.orange {
+    color: orange;
+}
+
+.half_width {
+    width: 50%;
+    padding: 5px;
+
+}
+
+.half_width img {
+    width: 50%;
+}
+
+.flexible_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bg {
+    background-image: url("shapes/Group\ 8450.png");
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 20px 70 px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+}
+
+.bg_img {
+    background-image: url("shapes/Frame\ 57.jpg");
+    background-position: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.experience_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.inline {
+    display: inline-block;
+    width: 30%;
+}
+
+#size {
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
