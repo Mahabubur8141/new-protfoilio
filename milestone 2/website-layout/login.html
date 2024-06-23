@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/18e64e8b3a.js" crossorigin="anonymous"></script>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+
+        .login_container {
+            display: flex;
+
+            justify-content: center;
+        }
+
+        .Login_Form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .Login_Form input {
+            margin-top: 1em;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+
+        .Login_Form input[type="submit"] {
+            background-color: goldenrod;
+            border: 0;
+            border-radius: 5px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventor</a>
+            </span>
+            <span>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </span>
+
+        </nav>
+    </header>
+    <section class="login_container">
+        <form class="Login_Form">
+            <h2>please login</h2>
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" placeholder="required">
+            <input type="submit" value="login">
+
+        </form>
+    </section>
+</body>
+
+</html>
